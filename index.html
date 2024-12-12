@@ -7,9 +7,15 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="Container">
+    <header>
+      <h1>Calculadora Simples</h1>
+      <p>Desenvolvida com as linguagens <abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr> e JavaScript
+      </p>
+    </header>
+    <main>
+    <section class="Container">
       <input type="text" class="display" />
-      <div class="buttons">
+      <article class="buttons">
         <button data-value="AC" class="operator">AC</button>
         <button data-value="DEL" class="operator">DEL</button>
         <button data-value="%" class="operator">%</button>
@@ -34,8 +40,10 @@
         <button data-value="00">00</button>
         <button data-value="." class="operator">.</button>
         <button data-value="=" class="operator">=</button>
-      </div>
-    </div>
+      </article>
+    </section>
+  </main>
+  <footer>&copy; Desenvolvido por Guilherme Martins</footer>
     <script src="script.js"></script>
   </body>
 </html>
